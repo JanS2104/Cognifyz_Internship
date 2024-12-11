@@ -1,0 +1,166 @@
+body, *, *:before, *:after{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+html,body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.fixed-width{
+    width: 1200px;
+    margin:auto;
+}
+a,a:active,a:visited{
+    text-decoration: none;
+    color:inherit
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+span{
+    color: red;
+}
+
+/* %%%%%%%%%%%%    HEADER   %%%%%%%%%%%%%    */
+.outer-div{
+    background-color: rgb(83, 6, 6);
+}
+.page-header{
+    background-color: rgb(83, 6, 6);
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    }
+    .page-header> div{
+        background-color: rgb(83, 6, 6);
+        margin: auto;
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .page-header .identity{
+        background-color: rgb(83, 6, 6);
+        float: left;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        left: 3em;
+        
+    }
+    .page-header .identity span{
+        background-color: rgb(83, 6, 6)(82, 8, 8);
+        bottom: 0;
+    }
+   
+    .page-header div ul{
+        background-color: rgb(83, 6, 6);
+        float:right;
+    }
+    .page-header div ul li{
+        background-color: rgb(83, 6, 6);
+        display: block;
+        padding-top: 3rem;
+        float:left;
+        margin:1.5rem;
+        margin-bottom: 2px;
+    }
+    .page-header div ul li a{
+        background-color: rgb(83, 6, 6);
+    }
+    .page-header div ul li:last-child{
+        background-color:  rgb(83, 6, 6);
+        margin-right: 3em;
+    }
+    .page-header div ul li:active, li:hover, li:visited{
+        background-color: rgb(83, 6, 6);
+        color: rgb(133, 10, 10);
+    }
+
+/* %%%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%%% */
+
+.content{
+    font-family: "Poppins", serif;
+    margin: 16em auto;
+    line-height: normal;
+}
+.content>div{
+    margin: 11em auto;
+    padding-top: 10em;
+}
+
+.content h1{
+    font-size: 3em;
+}
+.content h2{
+    font-size: 2em;
+}
+.oned{
+    float:left;
+    margin: 2em;
+}
+
+.history img{
+    float:right;
+    margin: 1em;
+}
+.history .img3{
+    float:left;
+    margin: 1em;
+}
+.history h2{
+    color:brown ;
+}
+
+
+
+/* %%%%%%% RATING %%%%%%%%%%% */
+
+.rating{
+    padding: 4em;
+    font-family: "Poppins", serif;
+}
+.rating h2{
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+input,button{
+    border: 1px solid rgb(92, 5, 5);
+    outline: none;
+}
+.rating input{
+    width:500px;
+    height:100px;
+    margin-top: 3em;
+    text-align: left;
+}
+button{
+    display: block;
+    margin-top: 2em;
+    background-color: rgb(116, 3, 3);
+    width: 7em;
+    height: 2em;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 9px #8b2d2d;
+    cursor: pointer;
+    margin-bottom: 4em;
+}
+button:hover {background-color: #641111}
+
+button:active {
+  background-color: #5a3737;
+  box-shadow: 0 5px #c05b5b;
+  transform: translateY(4px);
+}
+
+
+
